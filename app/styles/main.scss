@@ -1,0 +1,81 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+#inputContainer {
+    position: absolute;
+    left: 30px;
+}
+
+#drawer {
+    margin-top: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+    float: left;
+}
+
+#outputText {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 0.9rem;
+    float: left;
+}
+
+#imgInput {
+    font-size: 1.1rem;
+}
+
+#codedImage {
+    position: absolute;
+    top: 530px;
+    left: 400px;
+    height: auto;
+    width: 640px;
+    background-color: aqua;
+    
+    .codedCell {
+        //-webkit-transform: rotate(90deg);
+        //-webkit-transform-origin: top right;
+        //height: auto;
+        //display: inline;
+        width: 10px;
+        word-wrap: break-word;
+        float: left;
+    }
+}
+
+#mapper {
+    position: absolute;
+    top: 50px;
+    left: 560px;
+    width: auto;
+    height: auto;
+    
+    .cell {
+        position: absolute;
+        //background-color: whitesmoke;
+        width: 10px;
+        height: 10px;
+        border: 1px solid grey;
+        box-sizing: border-box;
+    }
+}
+
