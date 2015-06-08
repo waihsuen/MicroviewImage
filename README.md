@@ -1,12 +1,13 @@
 # MicroviewImageGenerator
 An image generator for Microview where you can upload your own images to generator the Hex Array for image display on the Microview.
 
-You can get the hardware via
+You can get the hardware via <br>
 https://www.sparkfun.com/products/12923
 
-Demo is
+Demo is<br>
 http://noelchan.me/microview_generator/
-Download The Arduino Code
+<br>
+Download The Arduino Code<br>
 http://noelchan.me/microview_generator/MicroviewGen.zip
 
 
